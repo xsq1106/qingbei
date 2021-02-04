@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header id="head">
+        <div id="head-con">
+            <li v-for="tit in title">
+                <span>{{tit}}</span>
+            </li>
+            <div class="chooseSubject">
+                <span>三年级</span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div id="lunbo">
+        </div>
+    </section>
+    <nav id="nav">
+        <li v-for="func in functions">
+            <span>{{func}}</span>
+        </li>
+    </nav>
+    <aside id="fuli">
+        <img src="img/images/fuli_02.png" alt="">
+    </aside>
+    <main id="main">
+        <p class="tit">{{main_tit}}</p>
+        <div class="course">
+            <li>
+                <div id="main_li_title">
+                    <p class="subject">语文</p>
+                    <p class="subject_name">2021三年级语文寒假特训班</p>
+                </div>
+                <div class="subject_date">
+                    <p class="subject_dateTime">2月20日-2月25日</p>
+                </div>
+                <div class="subject_foot">
+                    <div class="subject_foot_img">
+                        <!-- <img src="" alt="" class="subject_img">-->
+                    </div>
+                    <div class="subject_price">
+                        <p class="originPrice">￥499</p>
+                        <p class="price">￥29</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="main_li_title">
+                    <p class="subject">语文</p>
+                    <p class="subject_name">2021三年级语文寒假特训班</p>
+                </div>
+                <div class="subject_date">
+                    <p class="subject_dateTime">2月20日-2月25日</p>
+                </div>
+                <div class="subject_foot">
+                    <div class="subject_foot_img">
+                        <!-- <img src="" alt="" class="subject_img">-->
+                    </div>
+                    <div class="subject_price">
+                        <p class="originPrice">￥499</p>
+                        <p class="price">￥29</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div id="main_li_title">
+                    <p class="subject">语文</p>
+                    <p class="subject_name">2021三年级语文寒假特训班</p>
+                </div>
+                <div class="subject_date">
+                    <p class="subject_dateTime">2月20日-2月25日</p>
+                </div>
+                <div class="subject_foot">
+                    <div class="subject_foot_img">
+                        <!-- <img src="" alt="" class="subject_img">-->
+                    </div>
+                    <div class="subject_price">
+                        <p class="originPrice">￥499</p>
+                        <p class="price">￥29</p>
+                    </div>
+                </div>
+            </li>
+        </div>
+    </main>
+    <footer id="foot">
+        <li>选课</li>
+        <li>学习</li>
+        <li>我</li>
+    </footer>
+</body>
+
+</html>
+<script src="vue-js/vue.js"></script>
+<script>
+    let header = new Vue({
+        el: "#head",
+        data: {
+            title: ["精选", "语文", "数学", "英语"]
+        }
+    })
+    let nav = new Vue({
+        el: "#nav",
+        data: {
+            functions: ["了解我们", "选课咨询", "口算批改"]
+        }
+    })
+    let main = new Vue({
+        el: "#main",
+        data: {
+            main_tit: "寒假特训班"
+        }
+    })
+</script>

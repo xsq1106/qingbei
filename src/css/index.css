@@ -1,0 +1,192 @@
+html{
+    font-size: 26.67vw;
+}
+body,html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    flex: 1;
+    overflow: auto;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+/* 头部 header*/
+header{
+    width: 100%;
+    height: 0.5rem;
+}
+#head #head-con{
+    width: 100%;
+    height: 100%;
+    line-height: 0.5rem;
+    font-size: 0.15rem;
+    margin-left: 0;
+}
+#head li{
+    float: left;
+    width: 0.6rem;
+    height: 0.5rem;
+}
+#head li:nth-of-type(1){
+    font-weight: bold;
+    font-size: 0.23rem;
+}
+.chooseSubject{
+    width: 0.6rem;
+    height: 0.5rem;
+    float: right;
+}
+#head #head-con li:hover,#head #head-con li:focus{
+    font-weight: bold;
+    font-size: 0.23rem;
+}
+
+/* 轮播图 section */
+section{
+    width: 100%;
+    height: 1.27rem;
+}
+#lunbo{
+    width: 3.42rem;
+    height: 100%;
+    background: #9ACE6A;
+    margin: 0 auto;
+    border-radius: 0.07rem;
+}
+
+/* 功能：导航 nav */
+nav{
+    width: 100%;
+    height: 0.92rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.18rem 0;
+}
+#nav li{
+    width: 0.65rem;
+    height: 0.74rem;
+    background: salmon;
+    font-size: 0.15rem;
+}
+
+/* 福利 aside */
+#fuli{
+    width: 100%;
+    height: 1.02rem;
+}
+#fuli img{
+    width: 100%;
+    height: 100%;
+}
+
+/* 主体 main */
+#main{
+    width: 100%;
+}
+#main .tit{
+    font-size: 0.18rem;font-weight: bold;
+    margin: 0;
+    margin-left: 0.1rem;
+}
+.course li{
+    height: 1.365rem;
+    width: 3.43rem;
+    background: #fff;
+    margin: 0.18rem auto;
+    border-radius: 0.07rem;
+}
+#main_li_title {
+    width: 100%;
+    height: 0.16rem;
+}
+#main_li_title p{
+    float: left;
+    line-height: 0.2rem;
+    font-weight: bold;
+}
+.subject{
+    width: 0.29rem;
+    height: 0.16rem;
+    background: #10A4FE;
+    color: #fff;
+    text-align: center;
+    font-size: 0.12rem;
+    border-radius: 0.041rem;
+    margin-top: 0.18rem;
+    margin-right: 0.12rem;
+    margin-left: 0.16rem;
+    margin-bottom: 0;
+}
+.subject_name{
+    font-size: 0.16rem;
+    margin-bottom: 0;
+}
+.subject_date{
+    float: left;
+    font-size: 0.11rem;
+    color: #A2A2A2;
+    
+}
+.subject_dateTime{
+    margin-top: 0.05rem;
+    margin-left: 0.16rem;
+    margin-bottom: 0;
+}
+.subject_foot{
+    width: 100%;
+    float: left;
+}
+.subject_foot .subject_foot_img{
+    width: 0.375em;
+    height: 0.375rem;
+    background: darkgoldenrod;
+    border-radius: 50%;
+    float: left;
+    margin-left: 0.16rem;
+    margin-top: 0.18rem;
+}
+.subject_price{
+    float: right;
+}
+.originPrice{
+    height: 0.375rem;
+    font-size: 0.1rem;
+    color: #CACACA;
+    float: left;
+    line-height: 0.6555rem;
+    text-decoration: line-through;
+}
+.price{
+    height: 0.375rem;
+    font-size: 0.2rem;
+    color: #FF4359;
+    float: left;
+    line-height: 0.375rem;
+    margin-right: 0.15rem;
+}
+
+/* 底部 footer */
+#foot{
+    width: 100%;
+    height: 0.5rem;
+    background: #A2A2A2;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+#foot li{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: skyblue;
+    float: left;
+    font-size: 0.15rem;
+    text-align: center;
+}
