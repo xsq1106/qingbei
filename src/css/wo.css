@@ -1,0 +1,139 @@
+html{
+    font-size: 26.67vw;
+}
+body,html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    flex: 1;
+    overflow: auto;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+/* 头部 */
+#head{
+    width: 100%;
+}
+.head_con{
+    width: 3.4rem;
+    height: 1.15rem;
+    background: cornflowerblue;
+    margin: 0 auto;
+}
+.head_img{
+    width: 0.66rem;
+    height: 0.66rem;
+    background: skyblue;
+    border-radius: 50%;
+    font-size: 0.15rem;
+    float: left;
+    margin-top: 0.25rem;
+}
+.head_content{
+    width: 2.5rem;
+    height: auto;
+    float: left;
+    margin-top: 0.25rem;
+    margin-left: 0.18rem;
+}
+.login{
+    font-size: 0.2rem;
+    margin: 0.08rem 0 0 0;
+}
+.head_func{
+    font-size: 0.12rem;
+    margin: 0.08rem 0 0 0;
+}
+
+
+/* 订单课程信息 */
+#courseInfo{
+    width: 100%;
+    margin-top: 0.12rem;
+
+}
+.courseInfo_con{
+    width: 3.4rem;
+    height: auto;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 0.04rem;
+    padding: 0.15rem;
+    box-sizing: border-box;
+}
+.courseInfo_con li{
+    width: 100%;
+    height: 0.47rem;
+    background: sandybrown;
+    font-size: 0.12rem;
+    line-height: 0.47rem;
+}
+
+/* 入学测试记录 */
+#test{
+    width: 100%;
+    margin-top: 0.12rem;
+}
+.test_con{
+    width: 3.4rem;
+    height: auto;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 0.04rem;
+    padding: 0.15rem;
+    box-sizing: border-box;
+}
+.test_con li{
+    width: 100%;
+    height: 0.47rem;
+    background: sandybrown;
+    font-size: 0.12rem;
+    line-height: 0.47rem;
+}
+
+/* 其他功能 */
+#otherFunc{
+    width: 100%;
+    margin-top: 0.12rem;
+}
+.otherFunc_con{
+    width: 3.4rem;
+    height: auto;
+    background: #fff;
+    margin: 0 auto;
+    border-radius: 0.04rem;
+    padding: 0.15rem;
+    box-sizing: border-box;
+}
+.otherFunc_con li{
+    width: 100%;
+    height: 0.47rem;
+    background: sandybrown;
+    font-size: 0.12rem;
+    line-height: 0.47rem;
+}
+
+/* 底部 footer */
+#foot{
+    width: 100%;
+    height: 0.5rem;
+    background: #A2A2A2;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+
+}
+#foot li{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: skyblue;
+    float: left;
+    font-size: 0.15rem;
+    text-align: center;
+}
