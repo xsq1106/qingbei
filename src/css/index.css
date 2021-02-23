@@ -73,10 +73,24 @@ nav{
 #nav li{
     width: 0.65rem;
     height: 0.74rem;
-    background: salmon;
     font-size: 0.15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
 }
-
+#nav li .iconfont{
+    font-size: 0.3rem;
+}
+.icon-xueshimao{
+    color: #37A6F8;
+}
+.icon-xiaoxi1{
+    color: #FE9700;
+}
+.icon-zhaoxiangji{
+    color: #FE638B;
+}
 /* 福利 aside */
 #fuli{
     width: 100%;
@@ -177,9 +191,9 @@ nav{
 #foot{
     width: 100%;
     height: 0.5rem;
-    background: #A2A2A2;
-    /* position: fixed;
-    bottom: 0; */
+    background: #fff;
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: space-around;
 
@@ -187,8 +201,14 @@ nav{
 #foot li{
     width: 0.4rem;
     height: 0.4rem;
-    background: skyblue;
     float: left;
     font-size: 0.15rem;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0.05rem;
+}
+#foot li p{
+    margin: 0;
 }

@@ -1,0 +1,72 @@
+{
+  "id": "2381811",
+  "name": "qingbei",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "735199",
+      "name": "我",
+      "font_class": "wo",
+      "unicode": "e6ae",
+      "unicode_decimal": 59054
+    },
+    {
+      "icon_id": "1089281",
+      "name": "购物袋",
+      "font_class": "buoumaotubiao01",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "8288763",
+      "name": "照相机",
+      "font_class": "zhaoxiangji",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "13131922",
+      "name": "双向箭头",
+      "font_class": "shuangxiangjiantou",
+      "unicode": "e720",
+      "unicode_decimal": 59168
+    },
+    {
+      "icon_id": "14462457",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    },
+    {
+      "icon_id": "14652096",
+      "name": "学士帽",
+      "font_class": "xueshimao",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "17328769",
+      "name": "铃铛",
+      "font_class": "lingdang",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "18225029",
+      "name": "消 息",
+      "font_class": "xiaoxi1",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "19939990",
+      "name": "书本",
+      "font_class": "Icon-jiaoyupeixun",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    }
+  ]
+}

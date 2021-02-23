@@ -1,0 +1,175 @@
+html{
+    font-size: 26.67vw;
+}
+body,html{
+    height: 100%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background: #F6F6F6;
+    position: relative;
+}
+li{
+    list-style: none;
+}
+#box{
+    flex: 1;
+    overflow: auto;
+}
+/* 头部 header*/
+header{
+    width: 100%;
+    margin-top: 0.18rem;
+    position: relative;
+}
+.head_img{
+    width: 100%;
+    height: 2.23rem;
+    background: #EBF5FF;
+}
+.returnPrev{
+    width: 0.17rem;
+    height: 0.17rem;
+    position: absolute;
+    left: 0.18rem;
+    font-size: 0.16rem;
+}
+.share{
+    width: 0.17rem;
+    height: 0.17rem;
+    position: absolute;
+    right: 0.18rem;
+}
+.share i{
+    float: left;
+    font-size: 0.16rem;
+}
+
+/* 详情 */
+section{
+    width: 100%;
+    height: auto;
+    padding: 0.2rem;
+    box-sizing: border-box;
+    background: #fff;
+}
+/* 详情页的上部分 */
+.detailMain_top{
+    width: 100%;
+    border-bottom: 0.005rem solid #ccc;
+}
+.detailMain_top_tit{
+    font-size: 0.18rem;
+    font-weight: bold;
+    margin: 0 0 0.1rem 0;
+}
+.main_li_time{
+    font-size: 0.1rem;
+    color: #494949;
+    margin: 0 0 0.1rem 0
+}
+.main_li_level{
+    width: 0.79rem;
+    height: 0.2rem;
+    border-radius: 0.04rem;
+    color: #BE8360;
+    background: #FFF5F4;
+    border: 0.005rem solid #FBEFE9;
+    font-size: 0.1rem;
+    text-align: center;
+    line-height: 0.2rem;
+}
+.main_li_price{
+    width: 100%;
+    height: 0.2rem;
+    margin:0.20rem 0 0.25rem 0;
+    color: #FF4257;
+}
+.main_li_price .symbol{
+    float: left; 
+    font-size: 0.12rem;
+    margin-top: 0.07rem;
+}
+.main_li_price .price{
+    float: left;
+    font-size: 0.19rem;
+    font-weight: bold;
+}
+/* 详情页的中间部分 */
+.detailMain_mid{
+    width:100%;
+    height: auto;
+    margin-top: 0.25rem;
+}
+.detailMain_mid_textbook{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 0.25rem;
+}
+.detailMain_mid_textbook span{
+    float: left;
+    font-size: 0.12rem;
+}
+.detailMain_mid_textbook .tit{
+    margin-right: 0.16rem;
+    color: #8F8F8F;
+}
+.detailMain_mid_textbook .content{
+    width: 2.52rem;
+    height: auto;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.detailMain_mid_textbook .arrow{
+    float: right;
+    font-size: 0.12rem;
+    margin: 0;
+}
+.listen{
+    width: 100%;
+    height: 0.625rem;
+    background: #E2F4FF;
+    border-radius: 0.05rem;
+}
+.listen p{
+    font-size: 0.12rem;
+    margin-left:  0.17rem;
+    color: #6DC5FB;
+}
+.listen .free{
+    font-weight: bold;  
+    padding-top: 0.17rem;
+    margin-bottom: 0.03rem;
+}
+.listen .teacher{
+    margin-top: 0;
+}
+.blank{
+    width: 100%;
+    height: 1.1rem;
+}
+
+/* 底部 */
+#foot{
+    background: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.2rem;
+}
+.baoming{
+    width:100%;
+    height: 0.46rem;
+    background: #10A4FE;
+    border-radius: 0.2rem;
+}
+.baoming p{
+    font-size: 0.15rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.46rem;
+    margin: 0;
+    font-weight: bold;
+}
